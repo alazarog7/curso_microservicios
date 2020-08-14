@@ -1,0 +1,85 @@
+2020-08-11 22:22:03,540 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine implemented interfaces of missing type org.eclipse.jdt.internal.core.manipulation.JavaElementLabelComposerCore
+ [Xlint:cantFindType]
+2020-08-11 22:22:03,547 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2020-08-11 22:22:30,350 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.jres.ExecutionEnvironmentsPreferencePage
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2020-08-11 22:22:30,380 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine implemented interfaces of missing type org.eclipse.jdt.internal.core.manipulation.JavaElementLabelComposerCore
+ [Xlint:cantFindType]
+2020-08-11 22:22:30,385 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaHotCodeReplaceListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2020-08-11 22:30:13,554 ERROR [ForkJoinPool.commonPool-worker-3] - System.err - Aug 11, 2020 10:30:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Stream Closed
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Stream Closed
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:273)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:280)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:659)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1632)
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1618)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Stream Closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:244)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:656)
+	... 8 more
+Caused by: java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:326)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 11 more
+2020-08-11 22:36:57,532 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2020-08-12 13:52:37,871 ERROR [Start Help Server] - System.err - 2020-08-12 13:52:37.870:INFO::Start Help Server: Logging initialized @10508497ms to org.eclipse.jetty.util.log.StdErrLog
+2020-08-12 13:52:38,176 ERROR [Start Help Server] - System.err - 2020-08-12 13:52:38.176:INFO:oejs.session:Start Help Server: DefaultSessionIdManager workerName=node0
+2020-08-12 13:52:38,176 ERROR [Start Help Server] - System.err - 2020-08-12 13:52:38.176:INFO:oejs.session:Start Help Server: No SessionScavenger set, using defaults
+2020-08-12 13:52:38,178 ERROR [Start Help Server] - System.err - 2020-08-12 13:52:38.178:INFO:oejs.session:Start Help Server: node0 Scavenging every 600000ms
+2020-08-12 13:52:38,246 ERROR [Start Help Server] - System.err - 2020-08-12 13:52:38.246:INFO:oejs.session:Start Help Server: node0 Scavenging every 600000ms
+2020-08-14 00:24:51,067 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine implemented interfaces of missing type org.eclipse.jdt.internal.core.manipulation.JavaElementLabelComposerCore
+ [Xlint:cantFindType]
+2020-08-14 00:24:51,078 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2020-08-14 00:25:35,034 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.RetargettableActionAdapterFactory
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2020-08-14 00:25:35,056 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine implemented interfaces of missing type org.eclipse.jdt.internal.core.manipulation.JavaElementLabelComposerCore
+ [Xlint:cantFindType]
+2020-08-14 00:25:35,060 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaHotCodeReplaceListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2020-08-14 00:25:48,949 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2020-08-14 13:50:50,344 ERROR [Start Help Server] - System.err - 2020-08-14 13:50:50.343:INFO::Start Help Server: Logging initialized @5742423ms to org.eclipse.jetty.util.log.StdErrLog
+2020-08-14 13:50:50,644 ERROR [Start Help Server] - System.err - 2020-08-14 13:50:50.644:INFO:oejs.session:Start Help Server: DefaultSessionIdManager workerName=node0
+2020-08-14 13:50:50,648 ERROR [Start Help Server] - System.err - 2020-08-14 13:50:50.648:INFO:oejs.session:Start Help Server: No SessionScavenger set, using defaults
+2020-08-14 13:50:50,651 ERROR [Start Help Server] - System.err - 2020-08-14 13:50:50.651:INFO:oejs.session:Start Help Server: node0 Scavenging every 660000ms
+2020-08-14 13:50:50,727 ERROR [Start Help Server] - System.err - 2020-08-14 13:50:50.727:INFO:oejs.session:Start Help Server: node0 Scavenging every 660000ms
